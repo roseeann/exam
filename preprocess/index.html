@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formularz Bootstrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    
+    <div class="container py-5">
+        <header class="header text-center mb-5">
+          <h1>Formularz Bootstrap</h1>
+        </header>
+  <form>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="inputName" placeholder="Wpisz imię">
+      <label for="inputName">Imię</label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Wpisz email">
+      <label for="inputEmail">Email</label>
+    </div>
+    <div class="form-floating mb-3">
+      <textarea class="form-control" id="inputMessage" rows="3" placeholder="Wpisz wiadomość"></textarea>
+      <label for="inputMessage">Wiadomość</label>
+    </div>
+    <div class="d-grid gap-2">
+      <button type="submit" class="btn btn-primary btn-lg">Wyślij</button>
+    </div>
+  </form>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

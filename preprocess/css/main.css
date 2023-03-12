@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/z/online-ankieta-listy-kontrolnej-bezszwowy-deseniowy-t%C5%82o-biznes-f-106532607.jpg");
+  background-repeat: repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-group {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=main.css.map */
